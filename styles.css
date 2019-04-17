@@ -1,0 +1,13 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    border: solid black 5px;
+    margin: 5px;
+}
+
+body {
+  
+}
+img{
+    width: 200px;
+}
