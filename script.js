@@ -46,7 +46,11 @@ function changeBackgroundColor(color) {
 }
 
 function displayImage(images) {
+    $(".images").hide();
+    
     images.forEach(function(image) {
-        $('.images').append('<img src =' + image + '>');
+        $('.images').append('<img src =' + image + '>');        
     });
+    
+    $(".images").fadeIn();
 }
